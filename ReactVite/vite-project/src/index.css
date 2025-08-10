@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.ant-upload-wrapper .ant-upload-drag {
+    border-color: #c4b5fd !important;
+    background: #faf5ff !important;
+    transition: border-color 0.3s;
+}
+
+.ant-upload-wrapper .ant-upload-drag:hover {
+    border-color: #8b5cf6 !important;
+}
+
+.ant-btn>.anticon {
+    vertical-align: middle !important;
+}
+
+.ant-upload-list-item-card .ant-upload-list-item-actions .anticon-delete:hover {
+    color: #ef4444;
+}
+
+/* 自定義滾動條 */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}

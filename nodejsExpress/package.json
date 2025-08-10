@@ -1,0 +1,26 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@langchain/core": "^0.3.66",
+    "@langchain/google-genai": "^0.2.15",
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "express-fileupload": "^1.5.2",
+    "langchain": "^0.3.30",
+    "neo4j-driver": "^5.28.1",
+    "pdf-parse": "^1.1.1",
+    "pg": "^8.16.3"
+  }
+}
